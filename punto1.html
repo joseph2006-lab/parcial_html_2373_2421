@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase programacion</title>
+    <style>
+        table, th, td {
+            border: 3px solid mediumorchid 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Programacion</h1>
+    </header>
+    <main>
+        <section aria-checked="Enlaces importantes">
+            <h2>Estos estudiantes pertenecen a nuestro curso</h2>
+        </section>
+        <section class="seccion" aria-label="Información de nuestros integrantes">
+            <h2>NOMBRE ESTUDIANTES</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Ocupación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Josep Alejandro Gaona</td>
+                        <td>19</td>
+                        <td>Analisis de datos</td>
+                    </tr>
+                    <td>Tatiana Arengas </td>
+                    <td>19</td>
+                    <td>Estudiante</td>
+                    </tr>
+                    <td>Andrea Salazar</td>
+                    <td>18</td>
+                    <td>Estudiante</td>
+                    </tr>
+                    <td>Andreina Arevalo</td>
+                    <td>18</td>
+                    <td>Analisis de programacion</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-label="Contenido programacion">
+            <h2>Imágenes de programacion</h2>
+            <h3>Imagen:</h3>
+            <img src="capture.PNG/600x300" alt="Imagen de ejemplo">
+
+        </section>
+
+        <section class="seccion" aria-label="Formulario para contactarnos">
+            <h2>Formulario para contactarnos</h2>
+            <form action="#" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required />
+                
+
+                <label for="email">Correo electrónico:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Ingresa tu email"
+                  required
+                />
+                <label for="message">Mensaje:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Escribe tu mensaje"
+                  required
+                ></textarea>
+      
+                <input type="submit" value="Enviar" />
+              </form>
+            </section>
+    </main>
+
+    <footer class="bg-dark text-center text-light p-4">
+        <p>Proyecto de Ejemplo de programacion - 2024</p>
+        
+      </footer>
+</body>
+
+</html>
